@@ -1,0 +1,17 @@
+{
+  "name": "testing-api-kasir-aja",
+  "version": "1.0.0",
+  "description": "tugas sanbercode api automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js --reporter mocha-junit-reporter --timeout 60000 --exit"
+  },
+  "author": "Iqbal Kurnia",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "jsonschema": "^1.4.1",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}

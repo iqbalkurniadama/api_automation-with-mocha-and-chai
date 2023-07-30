@@ -4,7 +4,8 @@
   "description": "tugas sanbercode api automation",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/**/*.js --reporter mocha-junit-reporter --timeout 60000 --exit"
+    "test": "mocha test/**/*.js --reporter mochawesome --timeout 60000 --exit",
+    "suite": "mocha test/suite/allTest.js --reporter mochawesome"
   },
   "author": "Iqbal Kurnia",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "chai": "^4.3.7",
     "jsonschema": "^1.4.1",
     "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
     "supertest": "^6.3.3"
   }
 }
